@@ -5,7 +5,7 @@ const path = require('path');
 const http = require('http');
 const mongoose = require('mongoose');
 
-const authRoutes = require('./routes/authRoutes');
+  const authRoutes = require('./routes/authRoutes');
 const paymentRoutes = require('./routes/paymentRoutes'); // ✅ Added
 const setupSocket = require('./socket');
 
