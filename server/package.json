@@ -1,0 +1,22 @@
+{
+  "name": "quran-learn-easy",
+  "version": "1.0.0",
+  "description": "Quran learning platform with student/teacher roles, video calling, and admin panel.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "nodemailer": "^6.9.8",
+    "socket.io": "^4.7.2"
+  }
+}
